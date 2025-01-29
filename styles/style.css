@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   margin: auto;
   color: #fff;
@@ -52,12 +55,6 @@ ol {
 }
 
 /* ----------------Лейаут----------- */
-
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .content {
   display: grid;
@@ -361,7 +358,6 @@ button:focus {
 .content__video-card:focus-visible {
   outline: 1px solid #fff;
 }
-
 
 /* ---------------Работаем с кликабельностью----------- */
 
