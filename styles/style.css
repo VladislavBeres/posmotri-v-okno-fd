@@ -312,12 +312,7 @@ button:hover {
   text-decoration: underline;
 }
 
-button[type="submit"]:active {
-  text-decoration: none;
-  background-color: #545050;
-}
-
-.more-button:active {
+button:active {
   text-decoration: none;
   background-color: #545050;
 }
